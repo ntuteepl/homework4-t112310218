@@ -18,7 +18,7 @@ int main()
     int count, account, password;
 
     scanf("%d", &count);
-    assert(count >= 0 && count <= 6);
+    assert(count >= 0 && count <= 10);
 
     for(int i = 0; i < count; i++){
         bool used = false;
